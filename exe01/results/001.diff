@@ -1,0 +1,4 @@
+1c1
+< SOMA = 2
+---
+> test.sh: line 15: ./main: No such file or directory

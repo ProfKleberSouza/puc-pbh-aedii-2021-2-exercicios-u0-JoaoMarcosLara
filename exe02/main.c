@@ -1,8 +1,21 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+  int tempo;
+  int vel;
+  int rend;
+  int distancia;
+  int litro;
+  scanf("%d",&tempo);
+  scanf("%d",&vel);
+  scanf("%d",&rend);
+  distancia = tempo * vel;
+  litro = distancia/rend;
+  printf("R = %d\n",rend);
+  printf("V = %d\n",vel);
+  printf("T = %d\n",tempo);
+  printf("D = %d\n",distancia);
+  printf("L = %d",litro);
+
+  return 0;
 }
